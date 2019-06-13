@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CDF57D1022A4825A0078375E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF57D0F22A4825A0078375E /* AppDelegate.swift */; };
-		CDF57D1222A4825A0078375E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF57D1122A4825A0078375E /* ViewController.swift */; };
 		CDF57D1522A4825A0078375E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF57D1322A4825A0078375E /* Main.storyboard */; };
 		CDF57D1822A4825A0078375E /* iMecaWash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF57D1622A4825A0078375E /* iMecaWash.xcdatamodeld */; };
 		CDF57D1A22A4825B0078375E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF57D1922A4825B0078375E /* Assets.xcassets */; };
 		CDF57D1D22A4825B0078375E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF57D1B22A4825B0078375E /* LaunchScreen.storyboard */; };
 		CDFFCA2222AA8F64000D3C86 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFFCA1522AA8ED6000D3C86 /* Alamofire.framework */; };
 		CDFFCA2322AA8F64000D3C86 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDFFCA1522AA8ED6000D3C86 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDFFCA2E22AAC354000D3C86 /* Provider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFFCA2D22AAC354000D3C86 /* Provider.storyboard */; };
+		CDFFCA5322ACE026000D3C86 /* LoginProviderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCA5222ACE026000D3C86 /* LoginProviderController.swift */; };
+		CDFFCA5722AD5031000D3C86 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCA5622AD5031000D3C86 /* StartViewController.swift */; };
+		CDFFCA5922AD5F73000D3C86 /* LoginClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCA5822AD5F73000D3C86 /* LoginClientController.swift */; };
+		CDFFCA5B22AD607F000D3C86 /* Client.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFFCA5A22AD607F000D3C86 /* Client.storyboard */; };
+		CDFFCA5D22AD79B4000D3C86 /* MecaWashApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFFCA5C22AD79B4000D3C86 /* MecaWashApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,13 +98,18 @@
 /* Begin PBXFileReference section */
 		CDF57D0C22A4825A0078375E /* iMecaWash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMecaWash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF57D0F22A4825A0078375E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDF57D1122A4825A0078375E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDF57D1422A4825A0078375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF57D1722A4825A0078375E /* iMecaWash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iMecaWash.xcdatamodel; sourceTree = "<group>"; };
 		CDF57D1922A4825B0078375E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF57D1C22A4825B0078375E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF57D1E22A4825B0078375E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDFFCA0922AA8ED6000D3C86 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		CDFFCA2D22AAC354000D3C86 /* Provider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Provider.storyboard; sourceTree = "<group>"; };
+		CDFFCA5222ACE026000D3C86 /* LoginProviderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProviderController.swift; sourceTree = "<group>"; };
+		CDFFCA5622AD5031000D3C86 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CDFFCA5822AD5F73000D3C86 /* LoginClientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginClientController.swift; sourceTree = "<group>"; };
+		CDFFCA5A22AD607F000D3C86 /* Client.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Client.storyboard; sourceTree = "<group>"; };
+		CDFFCA5C22AD79B4000D3C86 /* MecaWashApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MecaWashApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,13 +144,12 @@
 		CDF57D0E22A4825A0078375E /* iMecaWash */ = {
 			isa = PBXGroup;
 			children = (
-				CDF57D0F22A4825A0078375E /* AppDelegate.swift */,
-				CDF57D1122A4825A0078375E /* ViewController.swift */,
-				CDF57D1322A4825A0078375E /* Main.storyboard */,
-				CDF57D1922A4825B0078375E /* Assets.xcassets */,
-				CDF57D1B22A4825B0078375E /* LaunchScreen.storyboard */,
+				CDFFCA2C22AABD4A000D3C86 /* ViewController */,
+				CDFFCA2B22AABCF7000D3C86 /* Main */,
+				CDFFCA2A22AABCE4000D3C86 /* Resources */,
+				CDFFCA2922AABCD1000D3C86 /* Model */,
+				CDFFCA2822AABCBA000D3C86 /* Network */,
 				CDF57D1E22A4825B0078375E /* Info.plist */,
-				CDF57D1622A4825A0078375E /* iMecaWash.xcdatamodeld */,
 			);
 			path = iMecaWash;
 			sourceTree = "<group>";
@@ -157,6 +166,52 @@
 				CDFFCA2122AA8ED6000D3C86 /* Alamofire.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFFCA2822AABCBA000D3C86 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CDFFCA5C22AD79B4000D3C86 /* MecaWashApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CDFFCA2922AABCD1000D3C86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDF57D1622A4825A0078375E /* iMecaWash.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDFFCA2A22AABCE4000D3C86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDF57D1B22A4825B0078375E /* LaunchScreen.storyboard */,
+				CDF57D1322A4825A0078375E /* Main.storyboard */,
+				CDF57D1922A4825B0078375E /* Assets.xcassets */,
+				CDFFCA2D22AAC354000D3C86 /* Provider.storyboard */,
+				CDFFCA5A22AD607F000D3C86 /* Client.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CDFFCA2B22AABCF7000D3C86 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CDF57D0F22A4825A0078375E /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CDFFCA2C22AABD4A000D3C86 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CDFFCA5222ACE026000D3C86 /* LoginProviderController.swift */,
+				CDFFCA5622AD5031000D3C86 /* StartViewController.swift */,
+				CDFFCA5822AD5F73000D3C86 /* LoginClientController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF57D1D22A4825B0078375E /* LaunchScreen.storyboard in Resources */,
+				CDFFCA2E22AAC354000D3C86 /* Provider.storyboard in Resources */,
 				CDF57D1A22A4825B0078375E /* Assets.xcassets in Resources */,
+				CDFFCA5B22AD607F000D3C86 /* Client.storyboard in Resources */,
 				CDF57D1522A4825A0078375E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF57D1222A4825A0078375E /* ViewController.swift in Sources */,
+				CDFFCA5322ACE026000D3C86 /* LoginProviderController.swift in Sources */,
+				CDFFCA5722AD5031000D3C86 /* StartViewController.swift in Sources */,
+				CDFFCA5922AD5F73000D3C86 /* LoginClientController.swift in Sources */,
+				CDFFCA5D22AD79B4000D3C86 /* MecaWashApi.swift in Sources */,
 				CDF57D1022A4825A0078375E /* AppDelegate.swift in Sources */,
 				CDF57D1822A4825A0078375E /* iMecaWash.xcdatamodeld in Sources */,
 			);
