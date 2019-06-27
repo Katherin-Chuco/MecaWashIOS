@@ -49,11 +49,11 @@
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnY-av-E0h">
-                                <rect key="frame" x="120.5" y="662" width="173" height="50"/>
+                                <rect key="frame" x="120.5" y="792" width="173" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="173" id="V3Y-5d-uSA"/>
-                                    <constraint firstAttribute="height" constant="50" id="gAm-MM-ndG"/>
+                                    <constraint firstAttribute="width" constant="173" id="7RU-kP-U4E"/>
+                                    <constraint firstAttribute="height" constant="50" id="Mnu-Fc-rOm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="INICIAR SESIÓN">
@@ -78,12 +78,12 @@
                             <constraint firstItem="e6p-t0-Cri" firstAttribute="top" secondItem="MKa-2O-Cyl" secondAttribute="bottom" constant="60" id="TL0-oD-5rL"/>
                             <constraint firstItem="e6p-t0-Cri" firstAttribute="leading" secondItem="faq-s0-nRX" secondAttribute="leading" constant="20" id="Tcu-Qf-SXf"/>
                             <constraint firstItem="x3n-JY-FDS" firstAttribute="leading" secondItem="faq-s0-nRX" secondAttribute="leading" constant="20" id="cDM-zV-yyG"/>
-                            <constraint firstItem="faq-s0-nRX" firstAttribute="bottom" secondItem="VnY-av-E0h" secondAttribute="bottom" constant="150" id="cuY-PZ-R83"/>
                             <constraint firstItem="MKa-2O-Cyl" firstAttribute="top" secondItem="faq-s0-nRX" secondAttribute="top" constant="47" id="pj1-7i-m80"/>
                             <constraint firstItem="faq-s0-nRX" firstAttribute="trailing" secondItem="9M5-Pe-Fnb" secondAttribute="trailing" constant="20" id="qcE-DK-bUw"/>
                             <constraint firstItem="faq-s0-nRX" firstAttribute="trailing" secondItem="n9g-th-ew2" secondAttribute="trailing" constant="20" id="rvb-Xp-vUD"/>
+                            <constraint firstItem="faq-s0-nRX" firstAttribute="bottom" secondItem="VnY-av-E0h" secondAttribute="bottom" constant="20" id="sef-g1-iGY"/>
                             <constraint firstItem="n9g-th-ew2" firstAttribute="top" secondItem="e6p-t0-Cri" secondAttribute="bottom" constant="8" id="vXJ-Yp-6pP"/>
-                            <constraint firstItem="VnY-av-E0h" firstAttribute="centerX" secondItem="3hK-h6-R2X" secondAttribute="centerX" id="yLV-26-cfl"/>
+                            <constraint firstItem="VnY-av-E0h" firstAttribute="centerX" secondItem="3hK-h6-R2X" secondAttribute="centerX" id="xth-sp-5iA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="faq-s0-nRX"/>
                     </view>
@@ -176,6 +176,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gn2-a2-RSI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P1v-L9-ISQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
