@@ -18,6 +18,7 @@
 		CD34A3D822C4FB980030DB0B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A3D722C4FB980030DB0B /* Service.swift */; };
 		CD34A3DA22C4FFC80030DB0B /* ProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A3D922C4FFC80030DB0B /* ProviderViewController.swift */; };
 		CD34A3DC22C500620030DB0B /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A3DB22C500620030DB0B /* ServicesViewController.swift */; };
+		CD34A3E022C507940030DB0B /* GetServicesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34A3DF22C507940030DB0B /* GetServicesResponse.swift */; };
 		CDB5631122B2FF8D001744E4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB5630422B2FF78001744E4 /* Alamofire.framework */; };
 		CDB5631222B2FF8D001744E4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDB5630422B2FF78001744E4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CDB5631E22B3189A001744E4 /* PostClientResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5631D22B3189A001744E4 /* PostClientResponse.swift */; };
@@ -120,6 +121,7 @@
 		CD34A3D722C4FB980030DB0B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		CD34A3D922C4FFC80030DB0B /* ProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewController.swift; sourceTree = "<group>"; };
 		CD34A3DB22C500620030DB0B /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		CD34A3DF22C507940030DB0B /* GetServicesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetServicesResponse.swift; sourceTree = "<group>"; };
 		CDB562F822B2FF78001744E4 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		CDB5631D22B3189A001744E4 /* PostClientResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostClientResponse.swift; sourceTree = "<group>"; };
 		CDB5631F22B31BDB001744E4 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				CDB5631D22B3189A001744E4 /* PostClientResponse.swift */,
 				CD34A3CB22BD53D60030DB0B /* GetLocalResponse.swift */,
 				CD34A3CF22C31DD50030DB0B /* GetLocalsResponse.swift */,
+				CD34A3DF22C507940030DB0B /* GetServicesResponse.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				CD34A3D022C31DD50030DB0B /* GetLocalsResponse.swift in Sources */,
 				CD34A3C822BD51040030DB0B /* Provider.swift in Sources */,
 				CD34A3D222C393EF0030DB0B /* LocalCell.swift in Sources */,
+				CD34A3E022C507940030DB0B /* GetServicesResponse.swift in Sources */,
 				CDF57D1822A4825A0078375E /* iMecaWash.xcdatamodeld in Sources */,
 				CD34A3CE22C3026B0030DB0B /* HomeViewController.swift in Sources */,
 				CD34A3CC22BD53D60030DB0B /* GetLocalResponse.swift in Sources */,

@@ -5,6 +5,7 @@ private let reuseIdentifier = "Cell"
 
 class LocalsViewController: UITableViewController {
     var locals: [Local] = [Local]()
+    var currentRow: Int = 0
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -29,7 +30,7 @@ class LocalsViewController: UITableViewController {
     }
     
     func handleError(error: Error) {
-        let message = "Error while requesting Articles:\(error.localizedDescription)"
+        let message = "Error while requesting locals:\(error.localizedDescription)"
         os_log("%@", message)
     }
     
@@ -44,6 +45,12 @@ class LocalsViewController: UITableViewController {
         
         return cell
         
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        currentRow = indexPath.row
+        
+        performSegue(withIdentifier: "showProvider", sender: self)
     }
 }
 
