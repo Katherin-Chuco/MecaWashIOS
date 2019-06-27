@@ -104,5 +104,17 @@ class MecaWashApi {
         
     }
     
+    static func servicesRequest(key: String, url: String,
+                                responseHandler: @escaping ((GetServicesResponse) -> Void),
+                                errorHandler: @escaping ((Error) -> Void)) {
+        
+        let headers: HTTPHeaders = [
+            "Authorization": key,
+        ]
+        
+        self.get(from: url, headers: headers, responseType: GetServicesResponse.self, responseHandler: responseHandler, errorHandler: errorHandler)
+        
+    }
+    
     
 }

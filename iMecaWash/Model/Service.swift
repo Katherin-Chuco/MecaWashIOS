@@ -7,8 +7,8 @@ struct Service: Codable{
     var detail: String?
     var localId: Int?
     var urlPhoto: String?
-    var category: String?
-    var nameCategory: Int?
+    var categoryId: Int?
+    var nameCategory: String?
     var cost: Double?
     var status: String?
     enum CodingKeys: String, CodingKey {
@@ -17,7 +17,7 @@ struct Service: Codable{
         case detail = "Detail"
         case localId = "LocalId"
         case urlPhoto = "UrlPhoto"
-        case category = "Category"
+        case categoryId = "Category"
         case nameCategory = "NameCategory"
         case cost = "Cost"
         case status = "Status"
